@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "GitHub Action",
+    "email": "action@github.com"
+  },
+  "plugins": [
+    "git-tag"
+  ]
+}

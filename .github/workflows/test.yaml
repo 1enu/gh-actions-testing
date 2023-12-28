@@ -17,8 +17,8 @@ jobs:
         run: git fetch --unshallow --tags
 
       - name: "install auto"
-
         run: |
           curl -qkL -o - https://github.com/intuit/auto/releases/download/v10.28.0/auto-linux.gz | gunzip > ~/auto
           chmod a+x ~/auto
-          ~/auto --help
+      - name: "install auto"
+        run: "~/auto shipit --dry-run"
