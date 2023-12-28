@@ -1,0 +1,20 @@
+name: build
+
+on: [push]
+
+steps:
+  - uses: actions/checkout@v4
+    with:
+      # Ensure that git uses your token with admin access to the repo
+      token: ${{ secrets.ADMIN_TOKEN }}
+
+  - name: Prepare repository
+    # Fetch full git history and tags
+    run: git fetch --unshallow --tags
+
+  - name: "install auto"
+
+    run: |
+      curl -vkL -o - https://github.com/intuit/auto/releases/download/v10.28.0/auto-linux.gz | gunzip > ~/auto
+      chmod a+x ~/auto
+      auto --help
