@@ -4,12 +4,13 @@ on: [push]
 
 jobs:
   test:
+    runs-on: "ubuntu-latest"
     steps:
       - name: Prepare repository
-        - uses: actions/checkout@v4
-          with:
-            # Ensure that git uses your token with admin access to the repo
-            token: ${{ secrets.ADMIN_TOKEN }}
+        uses: actions/checkout@v4
+        with:
+          # Ensure that git uses your token with admin access to the repo
+          token: ${{ secrets.ADMIN_TOKEN }}
 
       - name: Prepare repository
         # Fetch full git history and tags
