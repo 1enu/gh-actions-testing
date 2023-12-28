@@ -20,5 +20,7 @@ jobs:
         run: |
           curl -qkL -o - https://github.com/intuit/auto/releases/download/v10.28.0/auto-linux.gz | gunzip > ~/auto
           chmod a+x ~/auto
-      - name: "install auto"
+      - name: "auto shipit"
+        env: # Or as an environment variable
+          GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
         run: "~/auto shipit --dry-run"
