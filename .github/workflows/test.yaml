@@ -22,5 +22,5 @@ jobs:
           chmod a+x ~/auto
       - name: "auto shipit"
         env: # Or as an environment variable
-          GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: "~/auto shipit"
