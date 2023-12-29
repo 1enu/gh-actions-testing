@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           # Ensure that git uses your token with admin access to the repo
-          token: ${{ secrets.ADMIN_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Prepare repository
         # Fetch full git history and tags
