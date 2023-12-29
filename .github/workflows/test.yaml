@@ -9,12 +9,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # Fetch full git history and tags
+          fetch-depth: 0
           # Ensure that git uses your token with admin access to the repo
           token: ${{ secrets.ADMIN_TOKEN }}
-
-      - name: Prepare repository
-        # Fetch full git history and tags
-        run: git fetch --unshallow --tags
 
       - name: "install auto"
         run: |
