@@ -1,3 +1,17 @@
+# v1.0.4 (Fri Dec 29 2023)
+
+#### ⚠️ Pushed to `main`
+
+- readded admin token ([@1enu](https://github.com/1enu))
+- Merge branch 'main' of https://github.com/1enu/gh-actions-testing ([@1enu](https://github.com/1enu))
+- change checkout token ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.2 (Fri Dec 29 2023)
 
 #### ⚠️ Pushed to `main`
