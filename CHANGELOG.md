@@ -2,6 +2,20 @@
 
 #### ⚠️ Pushed to `main`
 
+- Merge branch 'main' of https://github.com/1enu/gh-actions-testing ([@1enu](https://github.com/1enu))
+- change token permissions ([@1enu](https://github.com/1enu))
+- use github token for release ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
+# v1.0.2 (Fri Dec 29 2023)
+
+#### ⚠️ Pushed to `main`
+
 - use github token for release ([@1enu](https://github.com/1enu))
 
 #### Authors: 1
