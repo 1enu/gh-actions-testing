@@ -23,4 +23,4 @@ jobs:
       - name: "auto shipit"
         env: # Or as an environment variable
           GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
-        run: "~/auto shipit --dry-run"
+        run: "~/auto shipit"
