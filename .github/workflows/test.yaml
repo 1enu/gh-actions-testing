@@ -7,6 +7,9 @@ jobs:
     permissions: write-all
     runs-on: "ubuntu-latest"
     steps:
+      # Waits until no release workflow is running 
+      - uses: ahmadnassri/action-workflow-queue@v1
+
       - uses: actions/checkout@v4
         with:
           # Fetch full git history and tags
@@ -18,6 +21,7 @@ jobs:
         run: |
           curl -qkL -o - https://github.com/intuit/auto/releases/download/v10.28.0/auto-linux.gz | gunzip > ~/auto
           chmod a+x ~/auto
+
       - name: "auto shipit"
         env: # Or as an environment variable
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
