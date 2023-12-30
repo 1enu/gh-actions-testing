@@ -1,3 +1,15 @@
+# v1.0.9 (Sat Dec 30 2023)
+
+#### 🐛 Bug Fix
+
+- use github actions account [#6](https://github.com/1enu/gh-actions-testing/pull/6) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.8 (Sat Dec 30 2023)
 
 #### 🐛 Bug Fix
