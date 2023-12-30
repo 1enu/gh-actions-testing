@@ -1,3 +1,15 @@
+# v1.0.7 (Sat Dec 30 2023)
+
+#### 🐛 Bug Fix
+
+- proper queue of release [#4](https://github.com/1enu/gh-actions-testing/pull/4) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.6 (Fri Dec 29 2023)
 
 #### 🐛 Bug Fix
