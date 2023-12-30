@@ -1,3 +1,15 @@
+# v1.0.11 (Sat Dec 30 2023)
+
+#### 🐛 Bug Fix
+
+- change name again [#8](https://github.com/1enu/gh-actions-testing/pull/8) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.10 (Sat Dec 30 2023)
 
 #### 🐛 Bug Fix
