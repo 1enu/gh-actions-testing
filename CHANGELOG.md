@@ -1,3 +1,15 @@
+# v1.0.10 (Sat Dec 30 2023)
+
+#### 🐛 Bug Fix
+
+- remove bot suffix [#7](https://github.com/1enu/gh-actions-testing/pull/7) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.9 (Sat Dec 30 2023)
 
 #### 🐛 Bug Fix
