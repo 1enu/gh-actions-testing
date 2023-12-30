@@ -1,3 +1,15 @@
+# v1.0.8 (Sat Dec 30 2023)
+
+#### 🐛 Bug Fix
+
+- proper naming [#5](https://github.com/1enu/gh-actions-testing/pull/5) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.7 (Sat Dec 30 2023)
 
 #### 🐛 Bug Fix
