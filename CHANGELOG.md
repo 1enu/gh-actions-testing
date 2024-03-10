@@ -1,3 +1,15 @@
+# v1.0.15 (Sun Mar 10 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Remove arg_0 to see if all args are stored there ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.14 (Sun Mar 10 2024)
 
 #### ⚠️ Pushed to `main`
