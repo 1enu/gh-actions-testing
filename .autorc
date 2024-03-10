@@ -6,7 +6,8 @@
       "exec",
       {
         "version": "echo VERSION $ARG_0",
-        "afterChangelog": "echo ARGS SHOULD SHOW HERE $ARG_1 $ARG_2 $ARG_3"
+        "beforeCommitChangelog": "echo afterChangelog ARGS $ARG_0",
+        "afterChangelog": "echo afterChangelog ARGS $ARG_0"
       }
     ]
   ]
