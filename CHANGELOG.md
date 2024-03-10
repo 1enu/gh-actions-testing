@@ -1,3 +1,15 @@
+# v1.0.16 (Sun Mar 10 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Check beforeCommitChagelog args ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.15 (Sun Mar 10 2024)
 
 #### ⚠️ Pushed to `main`
