@@ -1,6 +1,12 @@
 {
-    "author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
-    "plugins": [
-        "git-tag"
+  "author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+  "plugins": [
+    "git-tag",
+    [
+      "exec",
+      {
+        "afterChangelog": "echo $ARG_0 $ARG_1$ ARG_2 ARG_3"
+      }
     ]
+  ]
 }
