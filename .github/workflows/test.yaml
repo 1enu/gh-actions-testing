@@ -17,7 +17,7 @@ jobs:
           # Fetch full git history and tags
           fetch-depth: 0
           # Ensure that git uses your token with admin access to the repo
-          token: ${{ secrets.ADMIN_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "Install auto"
         run: |
