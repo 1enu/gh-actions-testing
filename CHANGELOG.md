@@ -1,3 +1,18 @@
+# v1.0.12 (Sun Mar 10 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Revert token to ADMIN_TOKEM ([@1enu](https://github.com/1enu))
+- Update auto to 11.1.1 ([@1enu](https://github.com/1enu))
+- Try using GITHUB_TOKEN instead ([@1enu](https://github.com/1enu))
+- Testing exec function ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.11 (Sat Dec 30 2023)
 
 #### 🐛 Bug Fix
