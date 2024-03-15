@@ -5,9 +5,9 @@
     [
       "exec",
       {
-        "version": "echo VERSION $ARG_0",
-        "beforeCommitChangelog": "echo afterChangelog ARGS $ARG_0",
-        "afterChangelog": "echo afterChangelog ARGS $ARG_0"
+        "version": "echo VERSION $ARG_0 arg1 $ARG_1",
+        "afterVersion": "echo AFTER_VERSION $ARG_0 arg1 $ARG_1",
+        "afterChangelog": "echo afterChangelog ARGS $ARG_0 arg1 $ARG_1"
       }
     ]
   ]
