@@ -36,8 +36,6 @@ jobs:
         run: |
           curl -qkL -o - https://github.com/intuit/auto/releases/download/v11.2.1/auto-linux.gz | gunzip > ~/auto
           chmod a+x ~/auto
-      - name: "Try auto version"
-        run: "~/auto version"
 
       - name: "Run auto shipit"
         env: # Or as an environment variable
