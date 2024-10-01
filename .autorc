@@ -5,8 +5,7 @@
     [
       "exec",
       {
-        "getPreviousVersion": "echo AFTER_VERSION $ARG_0 arg1 $ARG_1",
-        "afterChangelog": "VERSION=$(~/auto version);VERSION=${VERSION#'v'}; bumpver update --set-version $VERSION -n"
+        "afterChangelog": "python3 pareseVer.py $ARG_0"
       }
     ]
   ]
