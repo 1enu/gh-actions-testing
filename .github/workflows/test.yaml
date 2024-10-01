@@ -36,5 +36,5 @@ jobs:
 
       - name: "Run auto shipit"
         env: # Or as an environment variable
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
         run: "~/auto shipit"
