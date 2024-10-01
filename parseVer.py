@@ -3,7 +3,7 @@ import json
 import subprocess
 import re
 
-data = json.load(sys.argv[1])
+data = json.loads(sys.argv[1])
 bump = data["bump"]
 version = data["currentVersion"]
 result = subprocess.run(
