@@ -29,6 +29,9 @@ jobs:
           # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
           persist-credentials: false
 
+      - name: Install tbump
+        run: pipx install tbump
+
       - name: "Install auto"
         run: |
           curl -qkL -o - https://github.com/intuit/auto/releases/download/v11.2.1/auto-linux.gz | gunzip > ~/auto
