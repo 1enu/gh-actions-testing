@@ -5,7 +5,7 @@
     [
       "exec",
       {
-        "afterChangelog": "VERSION=$(~/auto version);VERSION=${VERSION#'v'}; bumpver update --set-version $VERSION -n"
+        "afterChangelog": "~/auto version;VERSION=$(~/auto version);VERSION=${VERSION#'v'}; bumpver update --set-version $VERSION -n"
       }
     ]
   ]
