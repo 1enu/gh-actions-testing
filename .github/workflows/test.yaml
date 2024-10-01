@@ -17,11 +17,11 @@ jobs:
           # Fetch full git history and tags
           fetch-depth: 0
           # Ensure that git uses your token with admin access to the repo
-          token: ${{ secrets.ADMIN_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "Install auto"
         run: |
-          curl -qkL -o - https://github.com/intuit/auto/releases/download/v11.1.1/auto-linux.gz | gunzip > ~/auto
+          curl -qkL -o - https://github.com/intuit/auto/releases/download/v11.2.1/auto-linux.gz | gunzip > ~/auto
           chmod a+x ~/auto
 
       - name: "Run auto shipit"
