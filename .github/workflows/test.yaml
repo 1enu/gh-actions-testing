@@ -29,8 +29,8 @@ jobs:
           # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
           persist-credentials: false
 
-      - name: Install tbump
-        run: pipx install tbump
+      - name: Install bumpver
+        run: pipx install bumpver
 
       - name: "Install auto"
         run: |
