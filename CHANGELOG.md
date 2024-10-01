@@ -1,3 +1,17 @@
+# v1.0.16 (Tue Oct 01 2024)
+
+#### 🐛 Bug Fix
+
+- [auto token update]Auto update to v11.2.1 [#12](https://github.com/1enu/gh-actions-testing/pull/12) ([@1enu](https://github.com/1enu))
+- [token fix]Auto update to v11.2.1 [#11](https://github.com/1enu/gh-actions-testing/pull/11) ([@1enu](https://github.com/1enu))
+- Auto update to v11.2.1 [#10](https://github.com/1enu/gh-actions-testing/pull/10) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.15 (Fri Mar 15 2024)
 
 #### ⚠️ Pushed to `main`
