@@ -12,7 +12,7 @@ jobs:
         uses: ahmadnassri/action-workflow-queue@v1
 
       # Create app key for admin access
-      - uses: actions/1enu-create-github-app-token@v1
+      - uses: actions/create-github-app-token@v1
         id: app-token
         with:
           # required
