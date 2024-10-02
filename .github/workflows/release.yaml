@@ -15,7 +15,8 @@ jobs:
         uses: actions/create-github-app-token@v1
         id: app-token
         with:
-          # Create a private app, then use the ID and PRIVATE_KEY in this action
+          # Create fork this action and create a private app
+          # then use the ID and PRIVATE_KEY in this action
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
