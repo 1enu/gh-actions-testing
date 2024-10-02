@@ -1,3 +1,15 @@
+# v1.0.25 (Wed Oct 02 2024)
+
+#### 🐛 Bug Fix
+
+- use workflow token for release [#39](https://github.com/1enu/gh-actions-testing/pull/39) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.24 (Wed Oct 02 2024)
 
 #### 🐛 Bug Fix
