@@ -14,7 +14,7 @@ result = subprocess.run(
     text = True # Python >= 3.7 only
 )
 
-new_version = re.search("[0-9.]+", result.stdout)
-
+new_version = re.match("[0-9.]+", result.stdout).group()
+print(new_version)
 out = subprocess.run(
 ['bumpver', 'update', "--set-version", new_version, "MAJOR.MINOR.PATCH"])
