@@ -1,3 +1,15 @@
+# v1.0.21 (Wed Oct 02 2024)
+
+#### 🐛 Bug Fix
+
+- Better workflow naming [#35](https://github.com/1enu/gh-actions-testing/pull/35) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.20 (Wed Oct 02 2024)
 
 #### 🐛 Bug Fix
