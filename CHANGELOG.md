@@ -1,3 +1,26 @@
+# v1.0.30 (Wed Oct 02 2024)
+
+#### 🐛 Bug Fix
+
+- git config test [#55](https://github.com/1enu/gh-actions-testing/pull/55) ([@1enu](https://github.com/1enu))
+- fix token test [#54](https://github.com/1enu/gh-actions-testing/pull/54) ([@1enu](https://github.com/1enu))
+- fix test switch 2 [#53](https://github.com/1enu/gh-actions-testing/pull/53) ([@1enu](https://github.com/1enu))
+- test switch 2 [#52](https://github.com/1enu/gh-actions-testing/pull/52) ([@1enu](https://github.com/1enu))
+- test switch [#51](https://github.com/1enu/gh-actions-testing/pull/51) ([@1enu](https://github.com/1enu))
+- remove switch test [#50](https://github.com/1enu/gh-actions-testing/pull/50) ([@1enu](https://github.com/1enu))
+- workflow test [#49](https://github.com/1enu/gh-actions-testing/pull/49) ([@1enu](https://github.com/1enu))
+- gh_token test [#48](https://github.com/1enu/gh-actions-testing/pull/48) ([@1enu](https://github.com/1enu))
+- override action and token [#47](https://github.com/1enu/gh-actions-testing/pull/47) ([@1enu](https://github.com/1enu))
+- override github_token test [#46](https://github.com/1enu/gh-actions-testing/pull/46) ([@1enu](https://github.com/1enu))
+- add github token [#45](https://github.com/1enu/gh-actions-testing/pull/45) ([@1enu](https://github.com/1enu))
+- use GH_TOKEN instead of GITHUB_TOKEN [#44](https://github.com/1enu/gh-actions-testing/pull/44) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.29 (Wed Oct 02 2024)
 
 #### 🐛 Bug Fix
