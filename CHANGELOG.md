@@ -1,3 +1,15 @@
+# v1.0.31 (Wed Oct 02 2024)
+
+#### 🐛 Bug Fix
+
+- git config on publish test [#56](https://github.com/1enu/gh-actions-testing/pull/56) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.30 (Wed Oct 02 2024)
 
 #### 🐛 Bug Fix
