@@ -5,8 +5,7 @@
     [
       "exec",
       {
-        "afterChangelog": "python3 scripts/parsever.py \"$ARG_0\"; export GITHUB_TOKEN=$WORKFLOW_TOKEN; export GH_TOKEN=$WORKFLOW_TOKEN",
-        "publish": "git config user.email '41898282+github-actions[bot]@users.noreply.github.com';git config user.name 'github-actions[bot]'"
+        "afterChangelog": "python3 scripts/parsever.py \"$ARG_0\""
       }
     ]
   ]
