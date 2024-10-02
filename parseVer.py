@@ -3,8 +3,11 @@ import subprocess
 import re
 
 data = sys.argv[1]
+print(data)
 bump = re.search(r"\"bump\":\"([^\"]+)\"", data).group(1)
-version = re.search(r"\"currentVersion\":\"([^\"]+)\"", data).group(1)
+print(bump)
+version = re.search(r"\"currentVersion\":\"v?([^\"]+)\"", data).group(1)
+print(version)
 result = subprocess.run(
     ['bumpver', 'test', f"--{bump}", version, "MAJOR.MINOR.PATCH"],
     capture_output = True, # Python >= 3.7 only
