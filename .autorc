@@ -5,8 +5,8 @@
     [
       "exec",
       {
-        "afterChangelog": "python3 scripts/parsever.py \"$ARG_0\"; export GITHUB_TOKEN=$WORKFLOW_TOKEN; export GH_TOKEN =%WORKFLOW_TOKEN",
-        "afterPublish": "export GITHUB_TOKEN=$WORKFLOW_TOKEN; export GH_TOKEN =%WORKFLOW_TOKEN"
+        "afterChangelog": "python3 scripts/parsever.py \"$ARG_0\"; export GITHUB_TOKEN=$WORKFLOW_TOKEN; export GH_TOKEN=$WORKFLOW_TOKEN",
+        "afterPublish": "export GITHUB_TOKEN=$WORKFLOW_TOKEN; export GH_TOKEN=$WORKFLOW_TOKEN"
       }
     ]
   ]
