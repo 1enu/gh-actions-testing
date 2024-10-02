@@ -13,7 +13,7 @@ result = subprocess.run(
     capture_output = True, # Python >= 3.7 only
     text = True # Python >= 3.7 only
 )
-
+print("STDOUT = ",result.stdout)
 new_version = re.match("[0-9.]+", result.stdout).group()
 print(new_version)
 out = subprocess.run(
