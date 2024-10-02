@@ -1,3 +1,15 @@
+# v1.0.29 (Wed Oct 02 2024)
+
+#### 🐛 Bug Fix
+
+- publish tests 2 [#43](https://github.com/1enu/gh-actions-testing/pull/43) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.28 (Wed Oct 02 2024)
 
 #### 🐛 Bug Fix
