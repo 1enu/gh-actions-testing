@@ -6,7 +6,7 @@
       "exec",
       {
         "afterChangelog": "python3 scripts/parsever.py \"$ARG_0\"",
-        "afterPublish": "GITHUB_TOKEN=$WORKFLOW_TOKEN"
+        "afterPublish": "export GITHUB_TOKEN=$WORKFLOW_TOKEN"
       }
     ]
   ]
