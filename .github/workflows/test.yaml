@@ -12,14 +12,16 @@ jobs:
         uses: ahmadnassri/action-workflow-queue@v1
 
       # Create app key for admin access
-      - uses: actions/create-github-app-token@v1
+      - name: "Create github app token"
+        uses: actions/create-github-app-token@v1
         id: app-token
         with:
           # required
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
-      - uses: actions/checkout@v4
+      - name: "Checkout"
+        uses: actions/checkout@v4
         with:
           # Fetch full git history and tags
           fetch-depth: 0
@@ -38,6 +40,6 @@ jobs:
           chmod a+x ~/auto
 
       - name: "Run auto shipit"
-        env: # Or as an environment variable
+        env: # token as an environment variable
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
         run: "~/auto shipit"
