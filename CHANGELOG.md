@@ -1,3 +1,15 @@
+# v1.0.23 (Wed Oct 02 2024)
+
+#### 🐛 Bug Fix
+
+- Testing edited user 2 [#37](https://github.com/1enu/gh-actions-testing/pull/37) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.22 (Wed Oct 02 2024)
 
 #### 🐛 Bug Fix
