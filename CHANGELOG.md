@@ -1,3 +1,33 @@
+# v1.0.17 (Wed Oct 02 2024)
+
+#### 🐛 Bug Fix
+
+- use search instead of match [#31](https://github.com/1enu/gh-actions-testing/pull/31) ([@1enu](https://github.com/1enu))
+- print stdout [#30](https://github.com/1enu/gh-actions-testing/pull/30) ([@1enu](https://github.com/1enu))
+- properly match new_version [#29](https://github.com/1enu/gh-actions-testing/pull/29) ([@1enu](https://github.com/1enu))
+- fix variable spill [#28](https://github.com/1enu/gh-actions-testing/pull/28) ([@1enu](https://github.com/1enu))
+- add prints [#27](https://github.com/1enu/gh-actions-testing/pull/27) ([@1enu](https://github.com/1enu))
+- edit typo [#26](https://github.com/1enu/gh-actions-testing/pull/26) ([@1enu](https://github.com/1enu))
+- use regex instead of json [#25](https://github.com/1enu/gh-actions-testing/pull/25) ([@1enu](https://github.com/1enu))
+- `loads` instead of `load` [#24](https://github.com/1enu/gh-actions-testing/pull/24) ([@1enu](https://github.com/1enu))
+- Fix parseVer spelling [#23](https://github.com/1enu/gh-actions-testing/pull/23) ([@1enu](https://github.com/1enu))
+- Test `auto version` 8 [#22](https://github.com/1enu/gh-actions-testing/pull/22) ([@1enu](https://github.com/1enu))
+- Test `auto version` 7 [#21](https://github.com/1enu/gh-actions-testing/pull/21) ([@1enu](https://github.com/1enu))
+- Test `auto version` 7 [#20](https://github.com/1enu/gh-actions-testing/pull/20) ([@1enu](https://github.com/1enu))
+- Test `auto version` 6 [#19](https://github.com/1enu/gh-actions-testing/pull/19) ([@1enu](https://github.com/1enu))
+- Test `auto version 5` [#18](https://github.com/1enu/gh-actions-testing/pull/18) ([@1enu](https://github.com/1enu))
+- Testing `auto version` 4 [#17](https://github.com/1enu/gh-actions-testing/pull/17) ([@1enu](https://github.com/1enu))
+- Testing `auto version` 3 [#16](https://github.com/1enu/gh-actions-testing/pull/16) ([@1enu](https://github.com/1enu))
+- Testing `auto version` [#15](https://github.com/1enu/gh-actions-testing/pull/15) ([@1enu](https://github.com/1enu))
+- [fix module name] Version bumping [#14](https://github.com/1enu/gh-actions-testing/pull/14) ([@1enu](https://github.com/1enu))
+- Version bumping [#13](https://github.com/1enu/gh-actions-testing/pull/13) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.16 (Tue Oct 01 2024)
 
 #### 🐛 Bug Fix
