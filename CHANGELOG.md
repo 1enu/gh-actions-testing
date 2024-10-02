@@ -1,3 +1,15 @@
+# v1.0.20 (Wed Oct 02 2024)
+
+#### 🐛 Bug Fix
+
+- scripts folder [#34](https://github.com/1enu/gh-actions-testing/pull/34) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.19 (Wed Oct 02 2024)
 
 #### 🐛 Bug Fix
