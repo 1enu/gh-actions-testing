@@ -1,3 +1,15 @@
+# v1.0.18 (Wed Oct 02 2024)
+
+#### 🐛 Bug Fix
+
+- fix bumpver update args [#32](https://github.com/1enu/gh-actions-testing/pull/32) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.17 (Wed Oct 02 2024)
 
 #### 🐛 Bug Fix
