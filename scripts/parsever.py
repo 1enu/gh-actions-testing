@@ -1,8 +1,8 @@
-import sys
 import subprocess
 import re
+import os
 
-data = sys.argv[1]
+data = os.environ["ARG_0"]
 bump = re.search(r"\"bump\":\"([^\"]+)\"", data).group(1)
 print("Bump type = ", bump)
 version = re.search(r"\"currentVersion\":\"v?([^\"]+)\"", data).group(1)
