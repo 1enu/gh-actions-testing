@@ -1,3 +1,15 @@
+# v1.0.33 (Thu Oct 03 2024)
+
+#### 🐛 Bug Fix
+
+- get `ARG_0` directly from script [#58](https://github.com/1enu/gh-actions-testing/pull/58) ([@1enu](https://github.com/1enu))
+
+#### Authors: 1
+
+- [@1enu](https://github.com/1enu)
+
+---
+
 # v1.0.32 (Wed Oct 02 2024)
 
 #### 🐛 Bug Fix
